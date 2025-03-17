@@ -94,6 +94,7 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local hrp = character:WaitForChild("HumanoidRootPart") -- Get the HumanoidRootPart
 
+task.wait(3.3)
 -- Teleport the player 500 studs up
 hrp.CFrame = hrp.CFrame + Vector3.new(0, 2600, 0)
 
